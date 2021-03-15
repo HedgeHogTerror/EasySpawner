@@ -56,7 +56,7 @@ namespace EasySpawner
             harmony.PatchAll();
 
             firstOpenHotkey = Config.Bind("Hotkeys", "firstOpenHotkey", "/", "Main hotkey to show/hide the menu. To find appropriate hotkeys use https://answers.unity.com/questions/762073/c-list-of-string-name-for-inputgetkeystring-name.html");
-            firstOpenHotkeyModifier = Config.Bind("Hotkeys", "firstOpenHotkeyModifier", "", "Optional Modifier to the firstOpenHotkey. Setting this will mean you have to press firstOpenHotkey + firstOpenHotkeyModifier to open/hide the menu. E.g. set this to left alt");
+            firstOpenHotkeyModifier = Config.Bind("Hotkeys", "firstOpenHotkeyModifier", "left shift", "Optional Modifier to the firstOpenHotkey. Setting this will mean you have to press firstOpenHotkey + firstOpenHotkeyModifier to open/hide the menu. E.g. set this to left alt");
             secondOpenHotkey = Config.Bind("Hotkeys", "secondOpenHotkey", "[/]", "Secondary hotkey to show/hide the menu");
             firstSpawnHotkey = Config.Bind("Hotkeys", "firstSpawnHotkey", "=", "Main hotkey to spawn selected prefab");
             firstSpawnHotkeyModifier = Config.Bind("Hotkeys", "firstSpawnHotkeyModifier", "", "Optional Modifier to the firstSpawnHotkey. Setting this will mean you have to press firstSpawnHotkey + firstSpawnHotkeyModifier to spawn selected prefab. E.g. set this to left alt");
